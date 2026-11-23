@@ -112,6 +112,16 @@ section h3 { font-size: 1.05rem; margin: 1.3rem 0 0.4rem; color: var(--accent); 
 
 ol.pubs, ul.plain { padding-left: 1.2rem; }
 ol.pubs li, ul.plain li { margin-bottom: 0.7rem; }
+.pub-links { margin-top: 0.3rem; display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: flex-start; }
+.pub-btn { display: inline-block; font-size: 0.8rem; font-weight: 600; padding: 0.1rem 0.6rem; border: 1px solid var(--accent); border-radius: 4px; color: var(--accent); background: var(--bg); cursor: pointer; list-style: none; }
+.pub-btn:hover { background: var(--accent-soft); text-decoration: none; }
+.pub-links details.cite { margin: 0; padding: 0; border: 0; }
+details.cite summary::-webkit-details-marker { display: none; }
+details.cite[open] { flex-basis: 100%; }
+.cite-box { margin-top: 0.4rem; padding: 0.6rem 0.8rem; background: var(--accent-soft); border-radius: 6px; font-size: 0.85rem; }
+.cite-box p { margin: 0.2rem 0; display: flex; justify-content: space-between; align-items: center; }
+.cite-box pre { margin: 0 0 0.5rem; white-space: pre-wrap; word-break: break-word; font-size: 0.8rem; background: var(--bg); padding: 0.5rem; border-radius: 4px; }
+.cite-box button.copy { font-size: 0.75rem; border: 1px solid var(--line); background: var(--bg); border-radius: 4px; cursor: pointer; padding: 0.05rem 0.5rem; }
 .tag {
   display: inline-block;
   font-size: 0.78rem;
